@@ -52,9 +52,9 @@ fi
 shopt -s nocasematch;
 
 if [[ $OS =~ "debian" || "$OS" =~ "ubuntu" ]]; then
-  DOWNLOAD_LINK = "https://code.visualstudio.com/docs/?dv=linux64_deb"
+  DOWNLOAD_LINK = "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
 else
-  DOWNLOAD_LINK = "https://code.visualstudio.com/docs/?dv=linux64_rpm"
+  DOWNLOAD_LINK = "https://code.visualstudio.com/sha/download?build=stable&os=linux-rpm-x64"
 fi
 
 mkdir ./temp || true
